@@ -1,0 +1,131 @@
+html {
+    font-size: 62.5%
+}
+
+#botonera {
+    background: rgb(204, 132, 132);
+    background: linear-gradient(90deg, rgba(204, 132, 132, 1) 29%, rgba(98, 49, 112, 1) 100%, rgba(255, 130, 237, 1) 100%);
+
+}
+
+#botonera .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+#botonera ul li:nth-child(1) {
+    background-color: #797676;
+    border-radius: 10px;
+    color: black !important;
+}
+
+#botonera a {
+    font-weight: 600;
+    font-family: 'monserrat';
+    font-size: 1.8rem;
+    color: #EAEAEA;
+}
+
+#botonera a:hover {
+    transform: translateY(-1px);
+    color: #EE5252 !important;
+    transition: .2s;
+}
+
+#box-cards-ofertas .title-productos {
+    font-size: 4.1rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif;
+}
+
+#box-cards-ofertas #productos {
+    margin-top: 5rem;
+}
+
+#box-cards-ofertas #productos .card {
+    width: 25rem;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    box-shadow: 7px 10px 12px -2px rgba(0, 0, 0, 0.35);
+}
+
+#box-cards-ofertas #productos .card .img-carousel {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+#box-cards-ofertas #productos .card:hover {
+    cursor: pointer;
+    transform: translateY(-10px);
+    transition: 1s;
+}
+
+#box-cards-ofertas #productos .card-title {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+#box-cards-ofertas #productos .card-text {
+    font-size: 2rem;
+}
+
+#box-cards-ofertas #productos .text-btn-a {
+    font-size: 1.8rem;
+}
+
+#box-cards-ofertas #productos .btn-ofertas {
+    background-color: #E85175;
+    color: #fff;
+}
+
+#box-cards-ofertas #productos .btn-ofertas:hover {
+    color: #fff;
+    background-color: #cf4444;
+    border: 1px solid #FFDFDF;
+}
+#box-cards-ofertas .text-descripcion-ofertas {
+    font-size: 2rem;
+    font-weight: 600; }
+
+footer {
+    margin-top: 50px;
+    background: #020024;
+    background: linear-gradient(90deg, #020024 0%, rgba(133, 35, 35, 0.975525) 100%);
+}
+
+footer .title-footer {
+    font-size: 4.5rem;
+}
+
+footer .title-footer .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+footer .subtitulo-footer {
+    font-size: 2rem;
+    color: #c9c9c9;
+}
+
+footer .text-a {
+    font-size: 1.5rem;
+}
+
+footer .color-a {
+    color: #848484;
+}
+
+footer .color-a:hover {
+    color: #435ED0 !important;
+}
+
+footer .text-descripcion-footer {
+    font-size: 1.5rem;
+    color: #c9c9c9;
+}
+
+footer .text-coyright {
+    font-size: 1.8rem;
+}
